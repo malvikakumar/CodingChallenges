@@ -1,5 +1,6 @@
 import java.util.*;
 
+// Check if a string is permutation of the other
 public class CheckPermutations {
     public static void main(String[] args) {
         String s1 = "abab";
