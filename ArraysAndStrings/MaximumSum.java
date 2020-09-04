@@ -9,9 +9,8 @@ class MaximumSum
         int incl = arr[0];
         int excl = 0;
         int excl_new;
-        int i;
 
-        for (i = 1; i < n; i++)
+        for (int i = 1; i < n; i++)
         {
             /* current max excluding i */
             excl_new = Math.max(incl, excl);
