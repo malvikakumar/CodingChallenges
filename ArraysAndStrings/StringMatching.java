@@ -7,6 +7,7 @@ public class StringMatching {
     }
     public static List<String> stringMatching(String[] words) {
         Arrays.sort(words, Comparator.comparingInt(String::length));
+        System.out.println(Arrays.toString(words));
         List<String> result = new ArrayList<>();
         for (int i = 0; i < words.length - 1; i++) {
             String str = words[i];

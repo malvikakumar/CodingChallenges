@@ -7,7 +7,7 @@ public class GroupAnagrams {
         System.out.println((anagrams));
     }
     public static List<List<String>> groupAnagrams(String[] strs) {
-        if (strs.length == 0) return Collections.emptyList();
+        if (strs == null || strs.length == 0) return Collections.emptyList();
         Map<String, List<String>> ans = new HashMap<String, List<String>>();
         int[] count = new int[26];
         for (String s : strs) {

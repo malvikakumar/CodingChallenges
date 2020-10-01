@@ -1,5 +1,3 @@
-package ArraysAndStrings;
-
 public class StringToInteger {
     public static void main(String[] args) {
         System.out.println(stringToInt("42"));

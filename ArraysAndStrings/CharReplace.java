@@ -1,4 +1,5 @@
 // URLify - Replace space with %20
+
 public class CharReplace {
     public static void main(String[] args) {
         String str = "Mr John Smith   ";
