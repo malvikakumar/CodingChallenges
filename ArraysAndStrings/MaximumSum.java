@@ -32,3 +32,5 @@ class MaximumSum
         System.out.println(sum.FindMaxSum(arr, arr.length));
     }
 }
+
+// TC: O(n), SC: O(1)

@@ -23,3 +23,5 @@ public class StringMatching {
         return result;
     }
 }
+
+// TC: O(n^2), SC: O(n)

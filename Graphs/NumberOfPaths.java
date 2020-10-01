@@ -22,3 +22,5 @@ public class NumberOfPaths {
         return d[m - 1][n - 1];
     }
 }
+
+// TC: O(mn), SC: O(mn)

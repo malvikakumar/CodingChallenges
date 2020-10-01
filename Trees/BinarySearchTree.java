@@ -1,5 +1,3 @@
-package Trees;
-
 public class BinarySearchTree {
     class Node {
         int key;
@@ -48,6 +46,19 @@ public class BinarySearchTree {
         }
     }
 
+    Node search(int key) {
+        return searchRec(root, key);
+    }
+
+    Node searchRec(Node root, int key) 
+{ 
+    if (root==null || root.key==key) 
+        return root;   
+    if (root.key > key) 
+        return searchRec(root.left, key); 
+    return searchRec(root.right, key); 
+} 
+
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 
@@ -65,8 +76,11 @@ public class BinarySearchTree {
         tree.insert(60);
         tree.insert(80);
 
-        // print inorder traversal of the BST
+        System.out.println(tree.search(20));
+        System.out.println(tree.search(90));
+
         tree.inorder();
     }
 }
 
+//TC: Avg: O(log n), Worst: O(n) for all operations, SC: O(n)

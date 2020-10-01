@@ -37,3 +37,5 @@ class KthLargestElementInStream {
         System.out.println(kth.add(4));
     }
 }
+
+// // TC: O(n), SC: O(k) where k is capacity of priority queue

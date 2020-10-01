@@ -36,6 +36,8 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
     }
 }
 
+//TC: O(1), SC: O(capacity)
+
 // In insertion-ordered linked hash maps, merely changing the value associated with a key that is already contained in the map is not a structural modification. 
 // In access-ordered linked hash maps, merely querying the map with get is a structural modification. ) 
 // Refer: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html

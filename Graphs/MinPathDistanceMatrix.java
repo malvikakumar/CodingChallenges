@@ -1,3 +1,5 @@
+// Given M+N matrix, find the largest distance btw  from (1,1) to (m,n) => largest dist is also max no of gems that can be collected
+
 public class MinPathDistanceMatrix {
     public static void main(String[] args) {
         int[][] grid = {{1,3,1},{1,5,1},{4,2,1}};
@@ -26,3 +28,5 @@ public class MinPathDistanceMatrix {
             return  grid[row-1][col-1];
     }
 }
+
+//TC: O(mn), SC: O(1)

@@ -16,3 +16,5 @@ public class MaxSubArray {
     }
 
 }
+
+//TC: O(n), SC: O(1)

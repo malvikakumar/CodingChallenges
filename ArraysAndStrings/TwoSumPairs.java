@@ -20,3 +20,5 @@ public class TwoSumPairs {
         return ar;
     }
 }
+
+// TC: Avg: O(n), worst: O(n^2), SC: O(n)

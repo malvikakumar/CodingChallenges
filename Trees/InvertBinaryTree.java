@@ -36,3 +36,12 @@ public class InvertBinaryTree {
       }
   }
 }
+
+// Invert: TC: O(n), SC: O(1)
+// isSameTree: TC: O(pq), SC: O(1) where p & q are the number of nodes in each tree
+
+/* BST Deletion: 
+    if no leaves - delete the node
+    if one leaf - replace node with leaf
+    if two leaves - replace node with either highest element in left tree (or) lowest element in right tree
+*/

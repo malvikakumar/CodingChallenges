@@ -27,3 +27,6 @@ public class GroupAnagrams {
         return new ArrayList<List<String>>(ans.values());
     }
 }
+
+// TC:  O(NK), where N is the length of strs, and K is the maximum length of a string in strs.
+// SC: O(NK)
