@@ -8,7 +8,7 @@ public class MergeSort {
     {
         // Find sizes of two subarrays to be merged
         int n1 = m - l + 1;
-        int n2 = r - m;
+        int n2 = r - m; // r - (m+1) - 1
 
         /* Create temp arrays */
         int L[] = new int[n1];
@@ -95,4 +95,5 @@ public class MergeSort {
         printArray(arr);
     }
 }
-/* This code is contributed by Rajat Mishra */
+
+// TC: O(N LOG N)
