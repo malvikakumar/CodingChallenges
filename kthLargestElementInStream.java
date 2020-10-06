@@ -23,7 +23,7 @@ class KthLargestElementInStream {
             q.poll();
             q.offer(n);
         }
-        return q.peek();
+        return q.peek(); // The head or front of the queue contains the least element as per the natural ordering
     }
 
     public static void main(String[] args) {

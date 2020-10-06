@@ -22,7 +22,16 @@ Double colon:  array.forEach(System.out::println);
 
 Empty list: Collections.emptyList()
 String to int: Integer.parseInt("42")
+Char to String -> String.valueOf('c')
 
 
 Additional stuff to see:
 map functions - iterate, key, val, keys, values
+
+COLLECTIONS:
+Priority Queue - implemented using min/max heap
+               - min heap has root as least element
+               - default is min heap - peek/poll gives least element
+               - insert, delete: O(log n) ; get - O(1)
+AVL trees - self balancing binary tree - differences between heights of left and right subtrees for every node is less than or equal to 1
+          - all operations O(log n)
