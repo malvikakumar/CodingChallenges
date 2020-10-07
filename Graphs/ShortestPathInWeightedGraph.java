@@ -1,6 +1,3 @@
-package Graphs;
-import java.util.*;
-
 public class ShortestPathInWeightedGraph {
     /*
     BFS Solution - modified

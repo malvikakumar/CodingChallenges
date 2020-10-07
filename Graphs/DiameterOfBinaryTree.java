@@ -1,6 +1,3 @@
-package Graphs;
-import java.util.*;
-
 // Diameter of undirected tree or graph
 public class DiameterOfBinaryTree {
     static int maxDiameter;
