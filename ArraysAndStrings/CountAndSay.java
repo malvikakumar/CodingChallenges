@@ -39,7 +39,7 @@ public class CountAndSay {
             StringBuilder sb = new StringBuilder();
 
             while(m.find()){
-                sb.append(m.group().length() + String.valueOf(m.group().charAt(0)));
+                sb.append(String.valueOf(m.group().length()) + m.group().charAt(0));
             }
             charSeq = sb.toString();
         }

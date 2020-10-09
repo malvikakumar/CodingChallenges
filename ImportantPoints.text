@@ -10,7 +10,7 @@ Array length -> .length
 String length -> .length()
 
 Array for => for(Integer i: num)
-String for => for(int i=0; i<i.length(); i++)
+String for => for(int i=0; i<s.length(); i++) (or) for(char c : s.toCharArray())
 
 Use Greedy approach (linear time) to find sum, max or min in an array. It will always have (current element, local maximum and global maximum).
 
@@ -21,8 +21,11 @@ Lambda:        array.forEach(number -> System.out.println(number));
 Double colon:  array.forEach(System.out::println);
 
 Empty list: Collections.emptyList()
+Reverse: Collections.reverseOrder()
 String to int: Integer.parseInt("42")
-Char to String -> String.valueOf('c')
+int to String: String.valueOf(3)
+Char to String: String.valueOf('c')
+String to char: s.charAt(0)
 
 
 Additional stuff to see:
@@ -31,7 +34,7 @@ map functions - iterate, key, val, keys, values
 COLLECTIONS:
 Priority Queue - implemented using min/max heap
                - min heap has root as least element
-               - default is min heap - peek/poll gives least element
+               - default is min heap - peek/poll gives least element - so default ordering is lest to highest element
                - insert, delete: O(log n) ; get - O(1)
 AVL trees - self balancing binary tree - differences between heights of left and right subtrees for every node is less than or equal to 1
           - all operations O(log n)
