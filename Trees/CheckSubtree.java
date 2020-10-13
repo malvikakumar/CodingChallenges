@@ -1,5 +1,6 @@
 package Trees;
 
+// Check if t is subtree of s
 public class CheckSubtree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         return traverse(s,t);

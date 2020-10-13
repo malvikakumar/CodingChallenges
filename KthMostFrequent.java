@@ -14,22 +14,22 @@ public class c {
             count.put(n, count.getOrDefault(n, 0) + 1);
         }
 
-        // init heap 'the less frequent element first'
-        Queue<Integer> heap = new PriorityQueue<>(
+        // init queue 'the less frequent element first'
+        Queue<Integer> queue = new PriorityQueue<>(
             (n1, n2) -> count.get(n1) - count.get(n2));
 
-        // 2. keep k top frequent elements in the heap
+        // 2. keep k top frequent elements in the queue
         // O(N log k) < O(N log N) time
         for (int n: count.keySet()) {
-            heap.add(n);
-            if (heap.size() > k) heap.poll();    
+            queue.add(n);
+            if (queue.size() > k) queue.poll();    
         }
 
         // 3. build an output array
         // O(k log k) time
         int[] top = new int[k];
         for(int i = k - 1; i >= 0; --i) {
-            top[i] = heap.poll();
+            top[i] = queue.poll();
         }
         return top;
     }
@@ -43,4 +43,4 @@ public class c {
 }
 
 // TC: O(N log k) if k<N and O(N) if k=N
-// SC: O(N+k) to store the hash map with not more N elements and a heap with k elements
+// SC: O(N+k) to store the hash map with not more N elements and a queue with k elements

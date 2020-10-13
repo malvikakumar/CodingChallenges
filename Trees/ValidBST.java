@@ -1,5 +1,6 @@
 package Trees;
 
+// Need to valodate this solution
 public class ValidBST {
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;

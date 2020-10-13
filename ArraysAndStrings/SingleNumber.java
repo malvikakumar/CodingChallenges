@@ -19,3 +19,5 @@ public class SingleNumber {
         return 0;
     }
 }
+
+// Alternate - put in set; while adding if (!set.add(..)) then that's appearing twice, so return it

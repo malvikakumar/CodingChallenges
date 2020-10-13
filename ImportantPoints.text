@@ -27,6 +27,10 @@ int to String: String.valueOf(3)
 Char to String: String.valueOf('c')
 String to char: s.charAt(0)
 
+ASCII:
+0 - 9 :    48-57
+A - Z :    65-90
+a - z :    97-122
 
 Additional stuff to see:
 map functions - iterate, key, val, keys, values
