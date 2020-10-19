@@ -3,13 +3,18 @@ public class DiameterOfBinaryTree {
     static int maxDiameter;
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1, new TreeNode(2, new TreeNode(4),new TreeNode(5)),new TreeNode(3));
-        System.out.println(diameterOfBinaryTree(root));
+        System.out.println("Diameter: "+diameterOfBinaryTree(root));
+
+        TreeNode root1 = new TreeNode(1, new TreeNode(2, new TreeNode(4),new TreeNode(5, new TreeNode(6), null)),new TreeNode(3));
+        System.out.println("Height: "+depth(root1));
     }
+
     public static int diameterOfBinaryTree(TreeNode root) {
         maxDiameter = 1;
         depth(root);
         return maxDiameter-1;
     }
+
     public static int depth(TreeNode root) {
         if(root == null) return 0;
         int leftD = depth(root.left);

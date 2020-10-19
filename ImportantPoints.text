@@ -32,9 +32,6 @@ ASCII:
 A - Z :    65-90
 a - z :    97-122
 
-Additional stuff to see:
-map functions - iterate, key, val, keys, values
-
 COLLECTIONS:
 Priority Queue - implemented using min/max heap
                - min heap has root as least element
@@ -42,3 +39,8 @@ Priority Queue - implemented using min/max heap
                - insert, delete: O(log n) ; get - O(1)
 AVL trees - self balancing binary tree - differences between heights of left and right subtrees for every node is less than or equal to 1
           - all operations O(log n)
+
+Additional stuff to see:
+map functions - iterate, key, val, keys, values
+Collections methods
+Big O
