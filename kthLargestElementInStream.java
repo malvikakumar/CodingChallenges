@@ -1,6 +1,5 @@
 // Design a class to find the kth largest element in a stream.
 // Note that it is the kth largest element in the sorted order, not the kth distinct element.
-import java.util.Collections;
 import java.util.PriorityQueue;
 
 class KthLargestElementInStream {
@@ -27,7 +26,6 @@ class KthLargestElementInStream {
     }
 
     public static void main(String[] args) {
-        int k = 3;
         int[] arr = new int[]{4,5,8,2};
         KthLargestElementInStream kth = new KthLargestElementInStream(3, arr);
         System.out.println(kth.add(3));

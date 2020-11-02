@@ -2,7 +2,8 @@ public class ValidBST {
     public boolean isValidBST(TreeNode root) {
         return helper(root, null, null);
        }
-       
+    
+       // pass in allowed range for root
     public boolean helper(TreeNode root, Integer lower, Integer upper) {
         if(root == null) return true;
         

@@ -1,4 +1,3 @@
-package Lists;
 import java.util.*;
 
 public class MergeKSortedLists {

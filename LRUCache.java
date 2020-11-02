@@ -1,6 +1,7 @@
 import java.util.*;
 class LRUCache extends LinkedHashMap<Integer, Integer>{
-    private int capacity;
+    private static final long serialVersionUID = 1L;
+	private int capacity;
 
     public LRUCache(int capacity) {
         super(capacity, 0.75F, true);

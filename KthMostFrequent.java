@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class c {
+public class KthMostFrequent {
     public static int[] topKFrequent(int[] nums, int k) {
         // O(1) time
         if (k == nums.length) {
@@ -9,7 +9,7 @@ public class c {
         
         // 1. build hash map : character and how often it appears
         // O(N) time
-        Map<Integer, Integer> count = new HashMap();
+        Map<Integer, Integer> count = new HashMap<Integer, Integer>();
         for (int n: nums) {
             count.put(n, count.getOrDefault(n, 0) + 1);
         }
@@ -35,7 +35,6 @@ public class c {
     }
 
     public static void main(String[] args) {
-        int k = 3;
         int[] arr = new int[]{4,5,8,2,5,2,5};
         int[] result = topKFrequent(arr, 2);
         Arrays.stream(result).forEach(System.out::println);
