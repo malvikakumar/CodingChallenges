@@ -1,5 +1,6 @@
 // Given an array of positive numbers, find the maximum sum of a subsequence with the constraint that no 2 numbers
 // in the sequence should be adjacent in the array.
+package ArraysAndStrings;
 class MaximumSum
 {
     /*Function to return max sum such that no two elements

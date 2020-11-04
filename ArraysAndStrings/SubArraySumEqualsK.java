@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 public class SubArraySumEqualsK {
     public int subarraySum(int[] nums, int k) {
         int count = 0;

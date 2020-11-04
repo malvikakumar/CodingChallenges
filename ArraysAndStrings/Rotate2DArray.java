@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 public class Rotate2DArray {
     public static void rotate(int[][] matrix) {
         int n = matrix.length;

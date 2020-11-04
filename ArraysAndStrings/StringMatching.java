@@ -1,4 +1,4 @@
-// Given an array of string words. Return all strings in words which is substring of another word in any order.
+package ArraysAndStrings;// Given an array of string words. Return all strings in words which is substring of another word in any order.
 import java.util.*;
 public class StringMatching {
     public static void main(String[] args) {

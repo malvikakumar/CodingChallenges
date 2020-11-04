@@ -1,5 +1,8 @@
 // Given an array of strings, group anagrams together.
+package ArraysAndStrings;
+
 import java.util.*;
+
 public class GroupAnagrams {
     public static void main(String[] args) {
         String[] stringArray = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};

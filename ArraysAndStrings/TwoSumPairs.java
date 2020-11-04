@@ -1,3 +1,4 @@
+package ArraysAndStrings;
 // Given an array of integers, return all indices of the two numbers that add up to a specific target.
 import java.util.*;
 

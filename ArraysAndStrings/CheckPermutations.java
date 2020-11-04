@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 import java.util.*;
 
 // Check if a string is permutation of the other

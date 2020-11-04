@@ -1,3 +1,4 @@
+package ArraysAndStrings;
 // Find the number of times the words of String a occur in String b (string a abd b are sentences)
 
 import java.util.*;

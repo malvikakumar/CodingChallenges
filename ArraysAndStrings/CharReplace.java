@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 // URLify - Replace spl chars with %20
 
 public class CharReplace {

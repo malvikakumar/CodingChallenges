@@ -1,4 +1,6 @@
 // Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+package ArraysAndStrings;
+
 public class LongestPalindrome {
     public static void main(String[] args) {
         String s = "babad";

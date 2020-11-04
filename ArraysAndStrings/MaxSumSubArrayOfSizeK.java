@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 class MaxSumSubArrayOfSizeK {
     public static int findMaxSumSubArray(int k, int[] arr) {
       int maxSum = 0, windowStart = 0, windowSum = 0;

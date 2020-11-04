@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 import java.util.*;
 
 // Merge / Sort two arrays with no duplicates
