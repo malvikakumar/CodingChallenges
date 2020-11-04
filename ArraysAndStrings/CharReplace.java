@@ -11,10 +11,9 @@ public class CharReplace {
 
         // str = str.replaceAll("\\W", "%20");
         str = str.replaceAll("[^a-zA-Z]+", "%20");
-        System.out.println(str);        
+        System.out.println(str);
     }
 }
 /**
- * \w : A word character, short for [a-zA-Z_0-9]
- * \W : A non-word character
+ * \w : A word character, short for [a-zA-Z_0-9] \W : A non-word character
  */
