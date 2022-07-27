@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodingChallenges.iml" filepath="$PROJECT_DIR$/CodingChallenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays-and-string/arrays-and-string.iml" filepath="$PROJECT_DIR$/arrays-and-string/arrays-and-string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphs/graphs.iml" filepath="$PROJECT_DIR$/graphs/graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lists/lists.iml" filepath="$PROJECT_DIR$/lists/lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/misc/misc.iml" filepath="$PROJECT_DIR$/misc/misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sort/sort.iml" filepath="$PROJECT_DIR$/sort/sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trees/trees.iml" filepath="$PROJECT_DIR$/trees/trees.iml" />
     </modules>
   </component>
 </project>
